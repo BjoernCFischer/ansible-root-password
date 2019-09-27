@@ -1,0 +1,5 @@
+---
+- name: Update root user's password
+  user:
+    name: root
+    password: "{{ root_password }}"
